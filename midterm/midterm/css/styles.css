@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(134, 204, 189);
 }
 
 img {
@@ -9,25 +9,25 @@ img {
 }
 
 a {
-    color: black;
+    color: rgb(8, 211, 191);
 }
 
 a:hover {
-    color: grey;
+    color: white;
     text-decoration: none;
 }
 
 /* Main Styles  */
 
 #container {
-    background-color: gray;
+    background-color: whitesmoke;
     width: 85%;
     margin: 20px auto;
     padding: 20px;
 }
 
 header {
-    background-color: white;
+    background-color: rgba(221, 218, 218, 0.973);
 }
 
 header img {
@@ -39,7 +39,7 @@ header img {
 nav {
     text-align: center;
     background-color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     margin-top: 20px;
 }
 
@@ -52,12 +52,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: gray;
+    background-color: rgb(134, 204, 189);
     color: white;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(221, 218, 218, 0.973);
     padding: 20px;
     margin: 20px 0;
 }
@@ -76,7 +76,7 @@ main img {
 }
 
 footer {
-    background-color: white;
+    background-color: rgba(221, 218, 218, 0.973);
     padding: 40px 0;
     text-align: center;
 }
