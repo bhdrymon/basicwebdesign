@@ -1,0 +1,116 @@
+/* Global Styles */
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(128, 123, 123);
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+#container {
+    margin: 5px;
+}
+
+header {
+    background-color:rgb(128, 123, 123);
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    color: gold;
+}
+
+nav {
+    background-color: rgb(128, 123, 123);
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 5px 0;
+    border-top: 1px solid white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: white;
+}
+
+section {
+    background-color:rgb(128, 123, 123) ;
+    padding: 10px;
+    margin: 5px;
+}
+
+section h2{
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color:rgb(128, 123, 123);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+menu {
+    display: flow-root;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles  */
+@media only screen and (min-width: 768px) {
+
+header {
+    color: gold;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px #000;
+    font-size: 3em;
+}
+        
+nav li {
+    display: inline-block;
+}
+        
+nav li a {
+    padding: 10px 40px;
+}
+
+#menu {
+    display: block;
+}
+        
+}
+
+/* Desktop Styles */

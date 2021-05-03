@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+              background-color: black;
+          }
+  
+          h2, h3 {
+              text-align: center;
+              font-size: 2em;
+          }
+  
+          video, audio {
+              display: block;
+              margin: 20px auto;
+              width: 75%;
+          }
+  
+          audio {
+              padding: 20px 0;
+          }
+  
+          header {
+              background-color:rgb(128, 123, 123) ;
+              padding: 50px 0;
+          }
+  
+          header h1 {
+              font-size: 3em;
+              text-align: center;
+          }
+  
+          main {
+              background-color: rgb(211, 210, 210);
+              padding: 20px;
+              margin: 10px;
+          }
+  
+          footer {
+              background-color: rgb(211, 210, 210);
+              padding: 40px 0;
+              text-align: center;
+          }
+  
+          table {
+              border: 4px solid rgb(168, 80, 250);
+              width: 100%;
+          }
+  
+          tr, td, th {
+              border: 4px solid rgb(168, 80, 250) ;
+              padding: 10px;
+              text-align: center;
+          }
+    
+  </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Final Project!</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Personal Life</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="future.html">Future Plans</a></li>  
+                <li><a href="statistics.html">Statistics</a></li>        
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>School Life</h2>
+                <p>I currently attend school at Chattanooga State Community College! I am actually graduating in May, 
+                    so this was my last semester! I am getting my Business A.A.S. degree, and hoping to open up my own boutique
+                    in Georgia soon when I move. I've been at Chatt State for 5 years, and have changed my major 3 times, so 
+                    it's been a little crazy. Here is one of my graduation pictures!
+                </p>
+                <div class="container">
+                    <div><img src="images/graduating.JPG" alt="Graduating"></div>
+                    
+                  </div>
+            </section>
+        </main>
+        <footer>&copy; 2021 Final Project</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity=
+    "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+        });
+    </script>
+</body>
+</html>

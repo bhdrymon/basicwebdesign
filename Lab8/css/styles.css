@@ -1,0 +1,40 @@
+/* Mobile Styles */
+#container {
+    margin: 5px;
+}
+
+header {
+    background-color:rgb(124, 124, 230);
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: beige;
+}
+
+nav {
+    background-color: rgb(124, 124, 230);
+}
+
+section {
+    background-color: rgb(153, 153, 255);
+    padding: 10px;
+    margin: 5px;
+}
+
+section h2{
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color:rgb(124, 124, 230);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+menu {
+    display: none;
+}

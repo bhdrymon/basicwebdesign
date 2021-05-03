@@ -11,6 +11,7 @@
     <li><a href="Lab6/index.html" target="_blank">Lab6 - Responsive Views</a></li>
     <li><a href="Lab6/gallery.html" target="_blank">Lab6 - Responsive Views</a></li>
     <li><a href="Lab7/index.html" target="_blank">Lab7 - Audio, Video and a Table</a></li>
+    <li><a href="FinalProject/index.html" target="_blank">Final Project</a></li>
 </ul>    
 
 
